@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
  */
 
 public class SquareLayout extends RelativeLayout {
+    
     public SquareLayout(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
@@ -48,4 +49,5 @@ public class SquareLayout extends RelativeLayout {
         }
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
+    
 }
