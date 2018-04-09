@@ -1,1 +1,1 @@
-include 'squareLayout'
+include ':squareLayout'

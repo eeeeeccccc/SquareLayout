@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SquareRelativeLayout">
+        <attr name="srl_ratio" format="float" />
+        <attr name="srl_config">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SquareLinearLayout">
+        <attr name="sll_ratio" format="float" />
+        <attr name="sll_config">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
